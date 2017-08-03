@@ -1,0 +1,25 @@
+class Car {	
+	int speed;
+
+	public void start(int startTime) {
+		this.startTime = startTime;
+		System.out.println("Car started");
+	}
+
+	public void stop(int endTime) {
+		this.endTime = endTime;
+		System.out.println("Car stopped");
+	}
+
+	public void accelerate(int speed) {
+		speed += 10;
+		System.out.println("Speed = " + speed);
+
+	}
+
+	public void brake(int speed) {
+		speed -=10;
+		System.out.println("Speed = " + speed);
+	}
+	
+}
